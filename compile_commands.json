@@ -1,0 +1,254 @@
+[
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "output": ".pio/build/nano/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "output": ".pio/build/nano/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "output": ".pio/build/nano/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega328p -x assembler-with-cpp -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -c -o .pio/build/nano/FrameworkArduino/wiring_pulse.S.o /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "output": ".pio/build/nano/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/lib1b2/Wire/Wire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp",
+        "output": ".pio/build/nano/lib1b2/Wire/Wire.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nano/lib1b2/Wire/utility/twi.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c",
+        "output": ".pio/build/nano/lib1b2/Wire/utility/twi.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/lib15f/SPI/SPI.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
+        "output": ".pio/build/nano/lib15f/SPI/SPI.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit BusIO/Adafruit_BusIO_Register.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
+        "output": ".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_GenericDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit BusIO/Adafruit_GenericDevice.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit BusIO/Adafruit_GenericDevice.cpp",
+        "output": ".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_GenericDevice.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_I2CDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit BusIO/Adafruit_I2CDevice.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit BusIO/Adafruit_I2CDevice.cpp",
+        "output": ".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_I2CDevice.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_SPIDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit BusIO/Adafruit_SPIDevice.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit BusIO/Adafruit_SPIDevice.cpp",
+        "output": ".pio/build/nano/lib3b8/Adafruit BusIO/Adafruit_SPIDevice.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_GFX.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit GFX Library/Adafruit_GFX.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit GFX Library/Adafruit_GFX.cpp",
+        "output": ".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_GFX.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit GFX Library/Adafruit_GrayOLED.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit GFX Library/Adafruit_GrayOLED.cpp",
+        "output": ".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_SPITFT.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit GFX Library/Adafruit_SPITFT.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit GFX Library/Adafruit_SPITFT.cpp",
+        "output": ".pio/build/nano/libe7b/Adafruit GFX Library/Adafruit_SPITFT.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o \".pio/build/nano/libe7b/Adafruit GFX Library/glcdfont.c.o\" -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit GFX Library/glcdfont.c\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit GFX Library/glcdfont.c",
+        "output": ".pio/build/nano/libe7b/Adafruit GFX Library/glcdfont.c.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nano/libd9e/Adafruit SSD1306/Adafruit_SSD1306.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nano/Adafruit SSD1306\" \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nano/Adafruit SSD1306/Adafruit_SSD1306.cpp\"",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Adafruit SSD1306/Adafruit_SSD1306.cpp",
+        "output": ".pio/build/nano/libd9e/Adafruit SSD1306/Adafruit_SSD1306.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/lib592/Bounce2/Bounce2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Bounce2/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Bounce2/src/Bounce2.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Bounce2/src/Bounce2.cpp",
+        "output": ".pio/build/nano/lib592/Bounce2/Bounce2.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/lib8cc/Encoder/Encoder.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/Encoder -I.pio/libdeps/nano/Encoder/utility -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/Encoder/Encoder.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/Encoder/Encoder.cpp",
+        "output": ".pio/build/nano/lib8cc/Encoder/Encoder.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/libb7e/EncoderButton/EncoderButton.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/EncoderButton/src -I.pio/libdeps/nano/Encoder -I.pio/libdeps/nano/Encoder/utility -I.pio/libdeps/nano/Bounce2/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/EncoderButton/src/EncoderButton.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/EncoderButton/src/EncoderButton.cpp",
+        "output": ".pio/build/nano/libb7e/EncoderButton/EncoderButton.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/lib095/FastGPIO/FastGPIO.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nano/FastGPIO -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nano/FastGPIO/FastGPIO.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": ".pio/libdeps/nano/FastGPIO/FastGPIO.cpp",
+        "output": ".pio/build/nano/lib095/FastGPIO/FastGPIO.cpp.o"
+    },
+    {
+        "command": "/Users/aneuhaeuser/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nano/src/euclid.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src -I.pio/libdeps/nano/FastGPIO -I.pio/libdeps/nano/EncoderButton/src -I.pio/libdeps/nano/Encoder -I.pio/libdeps/nano/Encoder/utility -I.pio/libdeps/nano/Bounce2/src \"-I.pio/libdeps/nano/Adafruit SSD1306\" \"-I.pio/libdeps/nano/Adafruit GFX Library\" \"-I.pio/libdeps/nano/Adafruit BusIO\" -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/cores/arduino -I/Users/aneuhaeuser/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/euclid.cpp",
+        "directory": "/Users/aneuhaeuser/Documents/dev/multimatik",
+        "file": "src/euclid.cpp",
+        "output": ".pio/build/nano/src/euclid.cpp.o"
+    }
+]

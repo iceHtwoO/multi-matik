@@ -1,8 +1,10 @@
 #include "labor.h"
+#include "Arduino.h"
 #include <FastGPIO.h>
 #include <arythmatik.h>
 #include <avr/pgmspace.h>
 
+namespace labor {
 // Configuration flags
 // #define ENCODER_REVERSED
 // #define ROTATE_PANEL
@@ -46,7 +48,7 @@
 using namespace modulove;
 using namespace arythmatik;
 
-Arythmatik hw;
+Arythmatik *hw;
 
 int framecount1 = 0;
 int framecount2 = 3; // Offset the second animation by 3 frames
@@ -462,52 +464,27 @@ const unsigned char Modulove_Logo[] PROGMEM = {
     0x00, 0x04, 0x80, 0x00, 0x00, 0x04, 0x40, 0x00, 0x00, 0x04, 0x40, 0x00,
     0x00, 0x06, 0xc0, 0x00, 0x00, 0x03, 0x80, 0x00};
 
-void setup() {
+void setup(Arythmatik *hw_ptr) {
 #ifdef ROTATE_PANEL
   hw.config.RotatePanel = false;
 #endif
 #ifdef REVERSE_ENCODER
   hw.config.ReverseEncoder = true;
 #endif
-
-  hw.Init();
+  hw = hw_ptr;
 
   // boot logo animation only on nano for now
 #if !defined(LGT8FX_BOARD) && !defined(DISABLE_BOOT_LOGO)
   drawAnimation();
   delay(1200);
 #endif
-
-  delay(1200);
-
-  hw.display.clearDisplay();
-  hw.display.setTextColor(WHITE);
-  hw.display.setCursor(18, 20);
-  hw.display.print("Nude Blacksmith");
-  hw.display.setCursor(12, 35);
-  hw.display.setTextSize(1);
-  hw.display.print("Hammering Sequence");
-  hw.display.display();
-
-  delay(2000);
-
-  hw.display.clearDisplay();
-  hw.display.setTextColor(WHITE);
-  hw.display.setCursor(16, 20);
-  hw.display.print("Happy Labourday");
-  hw.display.setCursor(10, 35);
-  hw.display.setTextSize(1);
-  hw.display.print("Patch: Omri Cohen");
-  hw.display.display();
-
-  delay(2000);
 }
 
 void loop() {
-  hw.ProcessInputs();
+  hw->ProcessInputs();
 
-  bool rst = hw.rst.State() == DigitalInput::STATE_RISING;
-  bool clk = hw.clk.State() == DigitalInput::STATE_RISING;
+  bool rst = hw->rst.State() == DigitalInput::STATE_RISING;
+  bool clk = hw->clk.State() == DigitalInput::STATE_RISING;
 
   // Reset sequence on reset input
   if (rst) {
@@ -545,8 +522,8 @@ void advanceFrame() {
     toggleState = !toggleState;
   }
 
-  hw.display.clearDisplay();
-  hw.display.fillRect(0, 0, 128, 64, BLACK);
+  hw->display.clearDisplay();
+  hw->display.fillRect(0, 0, 128, 64, BLACK);
 
   // Randomly flip orientation and invert the image
   drawImageWithEffects(12, 0, labours[framecount1], toggleState);
@@ -554,64 +531,65 @@ void advanceFrame() {
 
   // Handle blacksmith hammering states
   if (framecount1 == 1) {
-    hw.outputs[0].High(); // First blacksmith hammers (output 0)
-    hw.outputs[4].Low();  // Ensure second blacksmith is off (output 1)
+    hw->outputs[0].High(); // First blacksmith hammers (output 0)
+    hw->outputs[4].Low();  // Ensure second blacksmith is off (output 1)
   } else if (framecount1 == 2) {
-    hw.outputs[0].Low();  // Ensure first blacksmith is off (output 0)
-    hw.outputs[4].High(); // Second blacksmith hammers (output 1)
+    hw->outputs[0].Low();  // Ensure first blacksmith is off (output 0)
+    hw->outputs[4].High(); // Second blacksmith hammers (output 1)
   } else {
-    hw.outputs[0].Low(); // Turn off first blacksmith (output 0)
-    hw.outputs[4].Low(); // Turn off second blacksmith (output 1)
+    hw->outputs[0].Low(); // Turn off first blacksmith (output 0)
+    hw->outputs[4].Low(); // Turn off second blacksmith (output 1)
   }
 
   // Handle blacksmith hammering states for the right animation (outputs 3 and
   // 4)
   if (framecount2 == 1) {
-    hw.outputs[3].High(); // First blacksmith hammers (output 3)
-    hw.outputs[1].Low();  // Ensure second blacksmith is off (output 4)
+    hw->outputs[3].High(); // First blacksmith hammers (output 3)
+    hw->outputs[1].Low();  // Ensure second blacksmith is off (output 4)
   } else if (framecount2 == 2) {
-    hw.outputs[3].Low();  // Ensure first blacksmith is off (output 3)
-    hw.outputs[1].High(); // Second blacksmith hammers (output 4)
+    hw->outputs[3].Low();  // Ensure first blacksmith is off (output 3)
+    hw->outputs[1].High(); // Second blacksmith hammers (output 4)
   } else {
-    hw.outputs[3].Low(); // Turn off first blacksmith (output 3)
-    hw.outputs[1].Low(); // Turn off second blacksmith (output 4)
+    hw->outputs[3].Low(); // Turn off first blacksmith (output 3)
+    hw->outputs[1].Low(); // Turn off second blacksmith (output 4)
   }
 
   // Toggle outputs 3 and 6 when framecount1 or framecount2 reaches 6
   if (framecount1 == 6 || framecount2 == 3) {
-    hw.outputs[2].High();
-    hw.outputs[5].Low();
+    hw->outputs[2].High();
+    hw->outputs[5].Low();
   } else {
-    hw.outputs[2].Low();
-    hw.outputs[5].High();
+    hw->outputs[2].Low();
+    hw->outputs[5].High();
   }
 
-  hw.display.display();
+  hw->display.display();
 }
 
 void drawImageWithEffects(int x, int y, const unsigned char *bitmap,
                           bool invert) {
   if (invert) {
-    hw.display.drawBitmap(x, y, bitmap, 46, 60, BLACK);
-    hw.display.drawBitmap(x, y, bitmap, 46, 60, WHITE);
+    hw->display.drawBitmap(x, y, bitmap, 46, 60, BLACK);
+    hw->display.drawBitmap(x, y, bitmap, 46, 60, WHITE);
   } else {
-    hw.display.drawBitmap(x, y, bitmap, 46, 60, WHITE);
+    hw->display.drawBitmap(x, y, bitmap, 46, 60, WHITE);
   }
 }
 
 void drawAnimation() {
-  hw.display.fillRect(0, 0, 128, 64, BLACK);
-  hw.display.drawBitmap(50, 16, Modulove_Logo, 28, 32, WHITE);
-  hw.display.display();
+  hw->display.fillRect(0, 0, 128, 64, BLACK);
+  hw->display.drawBitmap(50, 16, Modulove_Logo, 28, 32, WHITE);
+  hw->display.display();
 }
 
 void resetSeq() {
   framecount1 = 0;
   framecount2 = 3; // Reset with the offset
-  hw.outputs[0].Low();
-  hw.outputs[1].Low();
-  hw.outputs[2].Low();
-  hw.outputs[3].Low();
-  hw.outputs[4].Low();
-  hw.outputs[5].Low();
+  hw->outputs[0].Low();
+  hw->outputs[1].Low();
+  hw->outputs[2].Low();
+  hw->outputs[3].Low();
+  hw->outputs[4].Low();
+  hw->outputs[5].Low();
 }
+} // namespace labor

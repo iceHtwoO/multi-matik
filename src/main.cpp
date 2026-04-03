@@ -1,9 +1,25 @@
 
-#include "labor.h"
+#include "euclidean/euclidean.h"
+#include "labor/labor.h"
 #include <Arduino.h>
 #include <arythmatik.h>
 
-modulove::Arythmatik hw;
+using namespace modulove;
+Arythmatik hw;
+
+uint8_t active = 0;
+void change_active(EncoderButton &eb) {
+  active++;
+  active %= 2;
+  switch (active) {
+  case 0:
+    labor::setup();
+    break;
+  case 1:
+    euclidean::setup();
+    break;
+  }
+}
 
 void setup() {
   hw.Init();
@@ -30,9 +46,21 @@ void setup() {
   hw.display.print("Patch: Omri Cohen");
   hw.display.display();
 
+  hw.eb.setTripleClickHandler(change_active);
+
   delay(2000);
 
-  labor::setup(&hw);
+  labor::setup();
 }
 
-void loop() { labor::loop(); }
+void loop() {
+  hw.ProcessInputs();
+  switch (active) {
+  case 0:
+    labor::loop();
+    break;
+  case 1:
+    euclidean::loop();
+    break;
+  }
+}
